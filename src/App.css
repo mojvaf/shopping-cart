@@ -32,7 +32,46 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.products img {
+  width: 50%;
+}
+
+.product {
+  padding: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+
+header {
+  background-color: green;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.products img {
+  width: 50%;
+}
+
+.product {
+  padding: 20px;
 }
